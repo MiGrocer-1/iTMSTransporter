@@ -237,5 +237,6 @@ done
 #
 # Launch the application.
 #
-
+# echo "\"${JAVA_EXECUTABLE}\" ${JAVA_EXECUTABLE_ARGS} -classpath ./lib/itmstransporter-launcher.jar ${APPLICATION_CLASS} ${COMMAND_LINE_ARGS}"
 eval exec "\"${JAVA_EXECUTABLE}\" ${JAVA_EXECUTABLE_ARGS} -classpath ./lib/itmstransporter-launcher.jar ${APPLICATION_CLASS} ${COMMAND_LINE_ARGS}"
+# /home/rushi/D 
